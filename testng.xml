@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Bdd UI Automation" parallel="tests" thread-count="1">
+    <listeners>
+        <listener class-name = "utils.CustomLogger" />
+    </listeners>
+
+<!--    <test name="UI Automation On Chrome">-->
+<!--        <parameter name="deviceName" value="Macbook Safari Browser"/>-->
+<!--        <parameter name="browserType" value="Safari"/>-->
+<!--        <classes>-->
+<!--            <class name="tests.TestRunner"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+    <test name="UI Automation On Chrome">
+        <parameter name="deviceName" value="Macbook Chrome Browser"/>
+        <parameter name="browserType" value="Chrome"/>
+        <classes>
+            <class name="tests.TestRunner"/>
+        </classes>
+    </test>
+
+<!--    <test name="UI Automation On Firefox">-->
+<!--        <parameter name="deviceName" value="Macbook Firefox Browser"/>-->
+<!--        <parameter name="browserType" value="Firefox"/>-->
+<!--        <classes>-->
+<!--            <class name="tests.TestRunner"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>
