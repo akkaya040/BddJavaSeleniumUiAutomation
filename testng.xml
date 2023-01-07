@@ -6,14 +6,6 @@
         <listener class-name = "utils.CustomLogger" />
     </listeners>
 
-<!--    <test name="UI Automation On Chrome">-->
-<!--        <parameter name="deviceName" value="Macbook Safari Browser"/>-->
-<!--        <parameter name="browserType" value="Safari"/>-->
-<!--        <classes>-->
-<!--            <class name="tests.TestRunner"/>-->
-<!--        </classes>-->
-<!--    </test>-->
-
     <test name="UI Automation On Chrome">
         <parameter name="deviceName" value="Macbook Chrome Browser"/>
         <parameter name="browserType" value="Chrome"/>
@@ -29,5 +21,15 @@
 <!--            <class name="tests.TestRunner"/>-->
 <!--        </classes>-->
 <!--    </test>-->
+
+<!--    <test name="UI Automation On Safari">-->
+<!--        <parameter name="deviceName" value="Macbook Safari Browser"/>-->
+<!--        <parameter name="browserType" value="Safari"/>-->
+<!--        <classes>-->
+<!--            <class name="tests.TestRunner"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
 
 </suite>

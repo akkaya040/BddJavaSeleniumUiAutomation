@@ -20,6 +20,7 @@ Feature: Mercedes Automation Scenarios
     And User Goes Home Page
     Then User Logouts
 
+  @severity=normal
   @UpdateUserBirthday
   Scenario: Update User Birthday
     When User Clicks User Information Button
